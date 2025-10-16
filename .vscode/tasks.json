@@ -1,0 +1,102 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build-debug",
+            "type": "shell",
+            "command": "xcodebuild",
+            "args": [
+                "-project",
+                "SimulatorLocationToolbox.xcodeproj",
+                "-scheme",
+                "SimulatorLocationToolbox",
+                "-configuration",
+                "Debug",
+                "-derivedDataPath",
+                "build",
+                "build"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/SimulatorLocationToolbox"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "build-release",
+            "type": "shell",
+            "command": "xcodebuild",
+            "args": [
+                "-project",
+                "SimulatorLocationToolbox.xcodeproj",
+                "-scheme",
+                "SimulatorLocationToolbox",
+                "-configuration",
+                "Release",
+                "-derivedDataPath",
+                "build",
+                "build"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/SimulatorLocationToolbox"
+            },
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "clean",
+            "type": "shell",
+            "command": "xcodebuild",
+            "args": [
+                "-project",
+                "SimulatorLocationToolbox.xcodeproj",
+                "-scheme",
+                "SimulatorLocationToolbox",
+                "clean"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/SimulatorLocationToolbox"
+            },
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "run",
+            "type": "shell",
+            "command": "open",
+            "args": [
+                "${workspaceFolder}/SimulatorLocationToolbox/build/Debug/SimulatorLocationToolbox.app"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/SimulatorLocationToolbox"
+            },
+            "dependsOn": [
+                "build-debug"
+            ],
+            "presentation": {
+                "reveal": "silent",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        }
+    ]
+}

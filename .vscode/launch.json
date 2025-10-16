@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb-dap",
+            "request": "launch",
+            "name": "Debug Simulator Location Toolbox",
+            "program": "${workspaceFolder}/SimulatorLocationToolbox/build/Build/Products/Debug/SimulatorLocationToolbox.app/Contents/MacOS/SimulatorLocationToolbox",
+            "args": [],
+            "cwd": "${workspaceFolder}/SimulatorLocationToolbox",
+            "preLaunchTask": "build-debug",
+            "console": "internalConsole"
+        },
+        {
+            "type": "lldb-dap",
+            "request": "launch",
+            "name": "Run Simulator Location Toolbox",
+            "program": "${workspaceFolder}/SimulatorLocationToolbox/build/Build/Products/Debug/SimulatorLocationToolbox.app/Contents/MacOS/SimulatorLocationToolbox",
+            "args": [],
+            "cwd": "${workspaceFolder}/SimulatorLocationToolbox",
+            "preLaunchTask": "build-debug",
+            "console": "internalConsole",
+            "stopOnEntry": false
+        }
+    ]
+}

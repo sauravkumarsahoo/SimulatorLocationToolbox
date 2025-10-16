@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "*.swift": "swift"
+    },
+    "lldb.displayFormat": "auto",
+    "lldb.showDisassembly": "auto",
+    "lldb.dereferencePointers": true,
+    "lldb.launch.expressions": "native",
+    "swift.path": "/usr/bin/swift",
+    "swift.buildArguments": [],
+    "swift.problemMatcherSearchPath": "${workspaceFolder}/SimulatorLocationToolbox"
+}
