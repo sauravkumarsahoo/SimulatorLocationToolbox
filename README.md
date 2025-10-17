@@ -4,6 +4,8 @@ A powerful macOS application for playing back GPX tracks and setting custom loca
 
 ![Screenshot 2](./Resources/ss2.png)
 
+> Note: This project is not affiliated with or endorsed by Apple Inc., GPX Studio, or any related entities. It is an independent tool developed to enhance iOS Simulator location testing capabilities.
+
 ## Features
 
 - 📍 **GPX File Playback**: Load and play GPX files to simulate realistic location tracking
