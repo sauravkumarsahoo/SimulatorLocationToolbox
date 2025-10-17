@@ -2,9 +2,12 @@
 
 A powerful macOS application for playing back GPX tracks and setting custom locations on iOS Simulators using `xcrun simctl location`.
 
+![Screenshot 2](./Resources/ss2.png)
+
 ## Features
 
 - 📍 **GPX File Playback**: Load and play GPX files to simulate realistic location tracking
+![Screenshot 3](./Resources/ss3.gif)
 - 🗺️ **Interactive Map Visualization**: 
   - Visualize GPX tracks with color-coded markers (green start, blue current, red end)
   - Interactive map for custom location mode with tap-to-place pin functionality
@@ -15,7 +18,9 @@ A powerful macOS application for playing back GPX tracks and setting custom loca
   - Search for locations using Apple's geocoding service
   - Manual coordinate entry with live map updates
   - Reverse geocoding to display addresses
+![Screenshot 4](./Resources/ss4.png)
 - 📱 **Device Selection**: Choose specific iOS Simulators or use the currently booted device
+![Screenshot 1](./Resources/ss1.png)
 - 📊 **Progress Tracking**: Real-time progress indicator showing current point and total points
 - 🎮 **Full Playback Controls**: Play, pause, stop, and resume with timestamp-based accuracy
 - 🔄 **Dual Mode Interface**: Switch between GPX File playback and Custom Location modes via radio buttons
